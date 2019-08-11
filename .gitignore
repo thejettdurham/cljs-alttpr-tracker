@@ -7,3 +7,5 @@ figwheel_server.log
 .idea/
 *.iml
 .DS_Store
+.lein-repl-history
+.nrepl-port

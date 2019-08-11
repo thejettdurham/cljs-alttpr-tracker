@@ -43,6 +43,7 @@
                 :externs ["cljs-externs/common.js"]
                 :optimizations :advanced
                 :cache-analysis true
+                :closure-defines {"goog.DEBUG" false}
                 :infer-externs true}}
     {:source-paths ["ui_src"]
      :id "frontend-release"
@@ -54,6 +55,7 @@
                 :cache-analysis true
                 :infer-externs true
                 :process-shim false
+                :closure-defines {"goog.DEBUG" false}
                 :main "ui.core"}}]}
   :figwheel {:http-server-root "public"
              :css-dirs ["resources/public/css"]
