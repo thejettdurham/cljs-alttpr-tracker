@@ -17,8 +17,8 @@
                       :net             0
                       :book            0
                       :bottle          0
-                      :red-cane        0
-                      :blue-cane       0
+                      :somaria         0
+                      :byrna           0
                       :cape            0
                       :mirror          0}))
 
@@ -38,8 +38,8 @@
                :net             2
                :book            2
                :bottle          5
-               :red-cane        2
-               :blue-cane       2
+               :somaria         2
+               :byrna           2
                :cape            2
                :mirror          2})
 

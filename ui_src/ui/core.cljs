@@ -8,9 +8,7 @@
 (defn root-component []
   [:div
    [ui.timer/game-timer]
-   [ui.item/item :bow]
-   [ui.item/item :bottle]
-   [ui.item/item :boomerang]])
+   [ui.item/items]])
 
 (reagent/render
   [root-component]
